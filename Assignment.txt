@@ -1,0 +1,23 @@
+2.  main          	Identifier expected
+    String		Parameter expected
+    HelloWorld		Class or interface expected
+    System.out		Unexpected token,Cannot resolve method 'println' in 'HelloWorld'
+    println		';' expected,Identifier expected,Not a statement
+
+3. the ;		';' expected
+   the first "		Cannot resolve symbol 'Hello',Cannot resolve symbol 'World',',' or ')' expected,Illegal line end in string literal,')' expected,';' expected
+   the second "		Illegal line end in string literal,')' expected,';' expected	
+   the first {		'class' or 'interface' expected,'{' expected
+   the second {		'{' or ';' expected,Cannot resolve symbol 'println','class' or 'interface' expected	
+   the first }		'}' expected
+   the second }		'}' expected
+
+4. main			Class 'HelloWorld' is never used,Method 'min(java.lang.String[])' is never used,Parameter 'args' is never used
+   String		Cannot resolve symbol 'Sring',Class 'HelloWorld' is never used,Method 'main(Sring[])' is never used,Parameter 'args' is never used
+   HelloWorld		Class 'HlloWorld' is public, should be declared in a file named 'HlloWorld.java',Typo: In word 'Hllo'
+   System.out		Cannot resolve symbol 'Sstem'
+   println		Cannot resolve method 'pintln' in 'PrintStream'
+
+5. Error: Main method not found in class Hello, please define the main method as:
+public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
